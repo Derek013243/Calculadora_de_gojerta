@@ -7,8 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-</head>
     <title>Calculadora de Gojeta</title>
+</head>
 <body>
     <header>
         <img src="./images/logo.svg" alt="Logo">
@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="gorjeta">
-                    <label for="outra">Selecione a gorjeta %</label>
+                    <label>Selecione a gorjeta %</label>
                     <div>
                         <input type="button" value="5%">
                         <input type="button" value="10%">
@@ -35,9 +35,11 @@
                     </div>
                 </div>
                 <div class="pessoas">
-                    <label for="pessoas">Quantidade de Pessoas</label>
-                    <p id="erro">Não pode ser zero</p>
-                    <div>
+                    <div class="textos">
+                        <label for="pessoas">Quantidade de Pessoas</label>
+                        <p id="erro">Não pode ser zero</p>
+                    </div>
+                    <div class="input-box">
                         <img src="./images/icon-person.svg" alt="">
                         <input type="number" name="pessoas" id="pessoas" placeholder="0">
                     </div>
