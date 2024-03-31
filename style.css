@@ -95,7 +95,7 @@ main {
     background-color: var(--green-800);
     color: var(--white);
 }
-.gorjeta .botão-ativo {
+.gorjeta .botao-ativo {
     background-color: var(--light-green);
     color: var(--green-800);
 }
